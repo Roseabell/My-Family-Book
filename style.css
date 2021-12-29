@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: palevioletred;
+    text-decoration: blue;
+    text-overflow: ellipsis;
+}
+h1{
+    text-align: center;
+}
+#image{
+    width: 900px;
+    height: 900px;
+    text-decoration-color: cornflowerblue;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+button{
+    width: 100px
+    
+    
+}

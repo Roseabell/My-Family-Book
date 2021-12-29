@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>My Family Book</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+
+    </head>
+</html>
+<body>
+    <center style="margin-top: 40px;"></center>
+    <background-color="blue"></background-color>
+    <h1>
+        My Family Book
+    </h1>
+    <img src="https://www.seekpng.com/png/detail/304-3041793_placeholder-animated-pictures-of-a-big-happy-family.png" id="image"width="140px" height="140px">
+    
+    <button type="button" onclick="nextslide()">Next</button>
+    
+</body>
+ <script>
+     var images=[
+     //cdn5.vectorstock.com/i/1000x1000/45/09/cute-cartoon-of-a-young-mother-vector-4414509.jpg
+     //i.pinimg.com/originals/ff/59/f8/ff59f8ad5f12999becd325970aab3a57.jpg
+     //creazilla-store.fra1.digitaloceanspaces.com/cliparts/33522/old-couple-grandfather-grandmother-clipart-xl.png
+     //us.123rf.com/450wm/robuart/robuart1703/robuart170300685/73762100-couple-in-warm-winter-clothes-looks-up-in-the-sky-.jpg?ver=6
+     ];
+     var names=[
+         "2. My Mother(Deblina Ramachandran)",
+         "3. My Father (Soham Gupta)",
+         "4. My Grandparents (Alpana Dutta,Subir Dutta,Prabir Dutta",
+         "5. My Uncle and Aunt (Dwaipayan Dutta,Milli Naskar"
+     ]
+     var i=0
+     function nextslide()
+     document.getElementById("names").innerHTML=names;
+     document.getElementById("images").src="images"[i];
+     i++
+     if (i==4){
+         i=0
+     }
+     </script>
+     </html>
+    </body>
